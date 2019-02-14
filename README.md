@@ -6,10 +6,12 @@ Simple reverse shell written in python 3
 * Python 3.4
 
 ## HOW TO INSTALL
-```git clone https://github.com/DarkSecDevelopers/rv_shell.git```
-                              ```OR```
-```Download Zip archive and navigate to rv_shell-master directory```
-```pip install -r requirements.txt```
+```
+git clone https://github.com/DarkSecDevelopers/rv_shell.git
+                              OR
+Download Zip archive and navigate to rv_shell-master directory
+pip install -r requirements.txt
+```
 
 
 ### How to run
