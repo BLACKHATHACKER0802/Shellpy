@@ -7,9 +7,9 @@ Simple reverse shell written in python 3
 
 ## HOW TO INSTALL
 ```
-git clone https://github.com/DarkSecDevelopers/rv_shell.git
+git clone https://github.com/DarkSecDevelopers/shellpy.git
                               OR
-Download Zip archive and navigate to rv_shell-master directory
+Download Zip archive and navigate to shellpy-master directory
 pip install -r requirements.txt
 ```
 
