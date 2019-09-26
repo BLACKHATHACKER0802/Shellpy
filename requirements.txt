@@ -1,4 +1,5 @@
-py2exe
-pypiwin32==219
+pywin32
 pyreadline
+cryptography
+pyinstaller
 
