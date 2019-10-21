@@ -13,5 +13,5 @@ pip install -r requirements.txt
 
 
 ### How to run
-edit ```run.py``` and change IP(28th line) to your local or wan ip than just run ```python run.py```
+edit ```run.py``` and change IP variable to your local or wan ip than just run ```python run.py```
 Set up listener using netcat ```nc -lvp 4444``` or meterpreter then just run .exe file and you'll get shell.
